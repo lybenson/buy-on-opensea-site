@@ -1,0 +1,27 @@
+{
+  "name": "buy-on-opensea",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@esbuild-plugins/node-globals-polyfill": "^0.1.1",
+    "@opensea/seaport-js": "^1.0.8",
+    "axios": "^1.1.3",
+    "ethers": "^5.7.2",
+    "lodash-es": "^4.17.21",
+    "opensea-js": "^4.0.12",
+    "vue": "^3.2.41"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^3.2.0",
+    "vite": "^3.2.3"
+  },
+  "resolutions": {
+    "@0x/utils": "https://github.com/ProjectOpensea/0x-tools/raw/provider-patch/utils/0x-utils-6.5.0.tgz"
+  }
+}
